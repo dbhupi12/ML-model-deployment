@@ -9,6 +9,4 @@ scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
 librosa
-tensorflow
 keras
-setuptools>=40.3.0
