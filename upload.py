@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import keras
 import pickle
-import tensorflow as tf
+import keras
 from keras import models
 from keras import layers
 import warnings
@@ -32,7 +32,7 @@ audio = UploadSet('audio', AUDIO)
 app.config['UPLOADED_AUDIO_DEST'] = 'static/audio'
 configure_uploads(app, audio)
 
-new_model = tf.keras.models.load_model('(dry n wet cough)ANN_model')
+new_model = keras.models.load_model('(dry n wet cough)ANN_model')
 #scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 @app.route('/')
