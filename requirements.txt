@@ -11,3 +11,4 @@ pandas>=0.19
 librosa
 tensorflow
 keras
+setuptools>=40.3.0
