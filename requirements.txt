@@ -12,5 +12,4 @@ pandas>=0.19
 librosa
 tensorflow
 keras
-pandas
 scikit-learn
